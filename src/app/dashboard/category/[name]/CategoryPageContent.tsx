@@ -252,8 +252,6 @@ export const CategoryPageContent = ({
     return <EmptyCategoryState categoryName={category.name} />
   }
 
-  console.log(data.events)
-
   return (
     <div className="space-y-6">
       <Tabs
