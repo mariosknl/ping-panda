@@ -46,7 +46,7 @@ importers:
         version: 8.21.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@upstash/redis':
         specifier: ^1.34.0
-        version: 1.34.8
+        version: 1.34.9
       class-variance-authority:
         specifier: ^0.7.1
         version: 0.7.1
@@ -1166,8 +1166,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@upstash/redis@1.34.8':
-    resolution: {integrity: sha512-eGJgOKc+2Uq4AdSM0lNx+WvFFhQeyhJ32SGNuSniLPg4lNb6m5h2AQ77qL+TgWiMZO8HCQ82Zsc/RlVBevCWTg==}
+  '@upstash/redis@1.34.9':
+    resolution: {integrity: sha512-7qzzF2FQP5VxR2YUNjemWs+hl/8VzJJ6fOkT7O7kt9Ct8olEVzb1g6/ik6B8Pb8W7ZmYv81SdlVV9F6O8bh/gw==}
 
   '@vladfrangu/async_event_emitter@2.4.6':
     resolution: {integrity: sha512-RaI5qZo6D2CVS6sTHFKg1v5Ohq/+Bo2LZ5gzUEwZ/WkHhwtGTCB/sVLw8ijOkAUxasZ+WshN/Rzj4ywsABJ5ZA==}
@@ -4024,7 +4024,7 @@ snapshots:
   '@unrs/resolver-binding-win32-x64-msvc@1.7.2':
     optional: true
 
-  '@upstash/redis@1.34.8':
+  '@upstash/redis@1.34.9':
     dependencies:
       crypto-js: 4.2.0
 
