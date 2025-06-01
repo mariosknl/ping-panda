@@ -16,7 +16,7 @@ importers:
         version: 2.5.0
       '@hookform/resolvers':
         specifier: ^5.0.0
-        version: 5.0.1(react-hook-form@7.56.2(react@18.3.1))
+        version: 5.0.1(react-hook-form@7.56.4(react@18.3.1))
       '@neondatabase/serverless':
         specifier: ^1.0.0
         version: 1.0.0
@@ -79,7 +79,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       react-hook-form:
         specifier: ^7.53.2
-        version: 7.56.2(react@18.3.1)
+        version: 7.56.4(react@18.3.1)
       react-syntax-highlighter:
         specifier: ^15.6.1
         version: 15.6.1(react@18.3.1)
@@ -2579,8 +2579,8 @@ packages:
     peerDependencies:
       react: ^18.3.1
 
-  react-hook-form@7.56.2:
-    resolution: {integrity: sha512-vpfuHuQMF/L6GpuQ4c3ZDo+pRYxIi40gQqsCmmfUBwm+oqvBhKhwghCuj2o00YCgSfU6bR9KC/xnQGWm3Gr08A==}
+  react-hook-form@7.56.4:
+    resolution: {integrity: sha512-Rob7Ftz2vyZ/ZGsQZPaRdIefkgOSrQSPXfqBdvOPwJfoGnjwRJUs7EM7Kc1mcoDv3NOtqBzPGbcMB8CGn9CKgw==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -3381,10 +3381,10 @@ snapshots:
 
   '@fastify/busboy@2.1.1': {}
 
-  '@hookform/resolvers@5.0.1(react-hook-form@7.56.2(react@18.3.1))':
+  '@hookform/resolvers@5.0.1(react-hook-form@7.56.4(react@18.3.1))':
     dependencies:
       '@standard-schema/utils': 0.3.0
-      react-hook-form: 7.56.2(react@18.3.1)
+      react-hook-form: 7.56.4(react@18.3.1)
 
   '@humanfs/core@0.19.1': {}
 
@@ -5610,7 +5610,7 @@ snapshots:
       react: 18.3.1
       scheduler: 0.23.2
 
-  react-hook-form@7.56.2(react@18.3.1):
+  react-hook-form@7.56.4(react@18.3.1):
     dependencies:
       react: 18.3.1
 
