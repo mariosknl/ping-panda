@@ -85,7 +85,7 @@ importers:
         version: 15.6.6(react@18.3.1)
       stripe:
         specifier: ^19.0.0
-        version: 19.3.0(@types/node@22.19.2)
+        version: 19.3.1(@types/node@22.19.2)
       superjson:
         specifier: ^2.2.1
         version: 2.2.2
@@ -2706,8 +2706,8 @@ packages:
     resolution: {integrity: sha512-6fPc+R4ihwqP6N/aIv2f1gMH8lOVtWQHoqC4yK6oSDVVocumAsfCqjkXnqiYMhmMwS/mEHLp7Vehlt3ql6lEig==}
     engines: {node: '>=8'}
 
-  stripe@19.3.0:
-    resolution: {integrity: sha512-3MbqRkw5LXb4LWP1LgIEYxUAYhYDDU5pcHZj4Xha6VWPnN1wrUmQ7Htsgm8wR584s0hn1aQg1lYD0Hi+F37E5g==}
+  stripe@19.3.1:
+    resolution: {integrity: sha512-5NXhLxTZ+4uO1wnsmNysILVuyeZ1Xia7niz/8ykBkGJkCcrY2WyQZwcfYuWZmZEJtWr2+0j49JXwNC6y9CHL7Q==}
     engines: {node: '>=16'}
     peerDependencies:
       '@types/node': '>=16'
@@ -5705,7 +5705,7 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stripe@19.3.0(@types/node@22.19.2):
+  stripe@19.3.1(@types/node@22.19.2):
     dependencies:
       qs: 6.14.0
     optionalDependencies:
