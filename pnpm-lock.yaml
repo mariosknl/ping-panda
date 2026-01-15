@@ -85,7 +85,7 @@ importers:
         version: 15.6.6(react@18.3.1)
       stripe:
         specifier: ^19.0.0
-        version: 19.3.1(@types/node@22.19.2)
+        version: 19.3.1(@types/node@22.19.7)
       superjson:
         specifier: ^2.2.1
         version: 2.2.6
@@ -110,7 +110,7 @@ importers:
         version: 4.20260108.0
       '@types/node':
         specifier: ^22.0.0
-        version: 22.19.2
+        version: 22.19.7
       '@types/react':
         specifier: ^18
         version: 18.3.27
@@ -1224,8 +1224,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@22.19.2':
-    resolution: {integrity: sha512-LPM2G3Syo1GLzXLGJAKdqoU35XvrWzGJ21/7sgZTUpbkBaOasTj8tjwn6w+hCkqaa1TfJ/w67rJSwYItlJ2mYw==}
+  '@types/node@22.19.7':
+    resolution: {integrity: sha512-MciR4AKGHWl7xwxkBa6xUGxQJ4VBOmPTF7sL+iGzuahOFaO0jHCsuEfS80pan1ef4gWId1oWOweIhrDEYLuaOw==}
 
   '@types/pg@8.15.5':
     resolution: {integrity: sha512-LF7lF6zWEKxuT3/OR8wAZGzkg4ENGXFNyiV/JeOt9z5B+0ZVwbql9McqX5c/WStFq1GaGso7H1AzP/qSzmlCKQ==}
@@ -3538,7 +3538,7 @@ snapshots:
 
   '@neondatabase/serverless@1.0.2':
     dependencies:
-      '@types/node': 22.19.2
+      '@types/node': 22.19.7
       '@types/pg': 8.15.5
 
   '@next/env@16.1.1': {}
@@ -3899,13 +3899,13 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@22.19.2':
+  '@types/node@22.19.7':
     dependencies:
       undici-types: 6.21.0
 
   '@types/pg@8.15.5':
     dependencies:
-      '@types/node': 22.19.2
+      '@types/node': 22.19.7
       pg-protocol: 1.10.3
       pg-types: 2.2.0
 
@@ -5678,11 +5678,11 @@ snapshots:
 
   strip-json-comments@3.1.1: {}
 
-  stripe@19.3.1(@types/node@22.19.2):
+  stripe@19.3.1(@types/node@22.19.7):
     dependencies:
       qs: 6.14.0
     optionalDependencies:
-      '@types/node': 22.19.2
+      '@types/node': 22.19.7
 
   styled-jsx@5.1.6(@babel/core@7.28.5)(react@18.3.1):
     dependencies:
