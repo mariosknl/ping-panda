@@ -16,7 +16,7 @@ importers:
         version: 2.6.0
       '@hookform/resolvers':
         specifier: ^5.0.0
-        version: 5.2.2(react-hook-form@7.71.1(react@18.3.1))
+        version: 5.2.2(react-hook-form@7.71.2(react@18.3.1))
       '@neondatabase/serverless':
         specifier: ^1.0.0
         version: 1.0.2
@@ -79,7 +79,7 @@ importers:
         version: 18.3.1(react@18.3.1)
       react-hook-form:
         specifier: ^7.53.2
-        version: 7.71.1(react@18.3.1)
+        version: 7.71.2(react@18.3.1)
       react-syntax-highlighter:
         specifier: ^16.0.0
         version: 16.1.0(react@18.3.1)
@@ -100,7 +100,7 @@ importers:
         version: 1.1.2(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       wrangler:
         specifier: ^4.0.0
-        version: 4.71.0(@cloudflare/workers-types@4.20260124.0)
+        version: 4.71.0(@cloudflare/workers-types@4.20260305.1)
       zod:
         specifier: ^4.0.0
         version: 4.3.6
@@ -2375,8 +2375,8 @@ packages:
     peerDependencies:
       react: ^18.3.1
 
-  react-hook-form@7.71.1:
-    resolution: {integrity: sha512-9SUJKCGKo8HUSsCO+y0CtqkqI5nNuaDqTxyqPsZPqIwudpj4rCrAz/jZV+jn57bx5gtZKOh3neQu94DXMc+w5w==}
+  react-hook-form@7.71.2:
+    resolution: {integrity: sha512-1CHvcDYzuRUNOflt4MOq3ZM46AronNJtQ1S7tnX6YN4y72qhgiUItpacZUAQ0TyWYci3yz1X+rXaSxiuEm86PA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       react: ^16.8.0 || ^17 || ^18 || ^19
@@ -3136,10 +3136,10 @@ snapshots:
       '@eslint/core': 1.1.0
       levn: 0.4.1
 
-  '@hookform/resolvers@5.2.2(react-hook-form@7.71.1(react@18.3.1))':
+  '@hookform/resolvers@5.2.2(react-hook-form@7.71.2(react@18.3.1))':
     dependencies:
       '@standard-schema/utils': 0.3.0
-      react-hook-form: 7.71.1(react@18.3.1)
+      react-hook-form: 7.71.2(react@18.3.1)
 
   '@humanfs/core@0.19.1': {}
 
@@ -5057,7 +5057,7 @@ snapshots:
       react: 18.3.1
       scheduler: 0.23.2
 
-  react-hook-form@7.71.1(react@18.3.1):
+  react-hook-form@7.71.2(react@18.3.1):
     dependencies:
       react: 18.3.1
 
@@ -5578,7 +5578,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20260301.1
       '@cloudflare/workerd-windows-64': 1.20260301.1
 
-  wrangler@4.71.0(@cloudflare/workers-types@4.20260124.0):
+  wrangler@4.71.0(@cloudflare/workers-types@4.20260305.1):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.2
       '@cloudflare/unenv-preset': 2.15.0(unenv@2.0.0-rc.24)(workerd@1.20260301.1)
