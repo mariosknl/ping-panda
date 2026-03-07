@@ -61,7 +61,7 @@ importers:
         version: 12.34.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       hono:
         specifier: ^4.5.5
-        version: 4.11.9
+        version: 4.12.5
       lucide-react:
         specifier: ^0.577.0
         version: 0.577.0(react@18.3.1)
@@ -100,7 +100,7 @@ importers:
         version: 1.1.2(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       wrangler:
         specifier: ^4.0.0
-        version: 4.71.0(@cloudflare/workers-types@4.20260124.0)
+        version: 4.71.0(@cloudflare/workers-types@4.20260305.1)
       zod:
         specifier: ^4.0.0
         version: 4.3.6
@@ -1918,8 +1918,8 @@ packages:
   highlightjs-vue@1.0.0:
     resolution: {integrity: sha512-PDEfEF102G23vHmPhLyPboFCD+BkMGu+GuJe2d9/eH4FsCwvgBpnc9n0pGE+ffKdph38s6foEZiEjdgHdzp+IA==}
 
-  hono@4.11.9:
-    resolution: {integrity: sha512-Eaw2YTGM6WOxA6CXbckaEvslr2Ne4NFsKrvc0v97JD5awbmeBLO5w9Ho9L9kmKonrwF9RJlW6BxT1PVv/agBHQ==}
+  hono@4.12.5:
+    resolution: {integrity: sha512-3qq+FUBtlTHhtYxbxheZgY8NIFnkkC/MR8u5TTsr7YZ3wixryQ3cCwn3iZbg8p8B88iDBBAYSfZDS75t8MN7Vg==}
     engines: {node: '>=16.9.0'}
 
   ignore@5.3.2:
@@ -4606,7 +4606,7 @@ snapshots:
 
   highlightjs-vue@1.0.0: {}
 
-  hono@4.11.9: {}
+  hono@4.12.5: {}
 
   ignore@5.3.2: {}
 
@@ -5578,7 +5578,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20260301.1
       '@cloudflare/workerd-windows-64': 1.20260301.1
 
-  wrangler@4.71.0(@cloudflare/workers-types@4.20260124.0):
+  wrangler@4.71.0(@cloudflare/workers-types@4.20260305.1):
     dependencies:
       '@cloudflare/kv-asset-handler': 0.4.2
       '@cloudflare/unenv-preset': 2.15.0(unenv@2.0.0-rc.24)(workerd@1.20260301.1)
