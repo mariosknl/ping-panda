@@ -84,8 +84,8 @@ importers:
         specifier: ^16.0.0
         version: 16.1.1(react@19.2.4)
       stripe:
-        specifier: ^20.0.0
-        version: 20.4.1(@types/node@24.12.0)
+        specifier: ^21.0.0
+        version: 21.0.1(@types/node@24.12.0)
       superjson:
         specifier: ^2.2.1
         version: 2.2.6
@@ -2844,11 +2844,11 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  stripe@20.4.1:
-    resolution: {integrity: sha512-axCguHItc8Sxt0HC6aSkdVRPffjYPV7EQqZRb2GkIa8FzWDycE7nHJM19C6xAIynH1Qp1/BHiopSi96jGBxT0w==}
-    engines: {node: '>=16'}
+  stripe@21.0.1:
+    resolution: {integrity: sha512-ocv0j7dWttswDWV2XL/kb6+yiLpDXNXL3RQAOB5OB2kr49z0cEatdQc12+zP/j5nrXk6rAsT4N3y/NUvBbK7Pw==}
+    engines: {node: '>=18'}
     peerDependencies:
-      '@types/node': '>=16'
+      '@types/node': '>=18'
     peerDependenciesMeta:
       '@types/node':
         optional: true
@@ -5895,7 +5895,7 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  stripe@20.4.1(@types/node@24.12.0):
+  stripe@21.0.1(@types/node@24.12.0):
     optionalDependencies:
       '@types/node': 24.12.0
 
